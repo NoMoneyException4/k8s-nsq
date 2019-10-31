@@ -115,7 +115,7 @@ spec:
             topologyKey: "kubernetes.io/hostname"
       containers:
       - name: nsqlookupd
-        image: nsqio/nsq:v1.1.0
+        image: nsqio/nsq:v1.2.0
         imagePullPolicy: Always
         resources:
           requests:
@@ -171,7 +171,7 @@ spec:
             topologyKey: "kubernetes.io/hostname"
       containers:
       - name: nsqd
-        image: nsqio/nsq:v1.1.0
+        image: nsqio/nsq:v1.2.0
         imagePullPolicy: Always
         resources:
           requests:
@@ -242,7 +242,7 @@ spec:
     spec:
       containers:
       - name: nsqadmin
-        image: nsqio/nsq:v1.1.0
+        image: nsqio/nsq:v1.2.0
         imagePullPolicy: Always
         resources:
           requests:
